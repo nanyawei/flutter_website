@@ -18,15 +18,15 @@ dependencies:
   # 刷新加载数据
   flutter_easyrefresh: ^2.0.9
   # 企业及路由
-  fluro: ^1.5.2
+  fluro: ^1.5.1
   # 加载html数据
   flutter_html: ^0.11.1
   # 日期格式化
   date_format: ^1.0.8
   # websocket处理
   web_socket_channel: ^1.1.0
-
-
+  # 占位符和网络图片淡入
+  transparent_image: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -40,6 +40,8 @@ flutter:
     - assets/images/banners/police-huahua.jpeg
     - assets/images/banners/police-maomao.jpeg
     - assets/images/banners/police-paopao.jpeg
+    - assets/images/banners/loading.gif
+
 
   # example:
   # fonts:
