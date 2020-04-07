@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_website/config/configure.dart';
 import 'package:flutter_website/utils/random_string.dart';
 import 'package:web_socket_channel/io.dart';
-import 'package:web_socket_channel/status.dart';
+// import 'package:web_socket_channel/status.dart';
 import 'dart:convert';
 
 
@@ -24,7 +25,7 @@ class WebSocketProvider with ChangeNotifier {
   // 创建并连接socket服务器
   Future createWebsocket () async {
     // 连接socket服务器 
-    // channel = IOWebSocketChannel.connect('ws://${Config.IP}:${Config.PORT}');
+    // channel = IOWebSocketChannel.connect('ws://${Config.IP}:${Config.PORT}/api/websocket');
     channel = IOWebSocketChannel.connect('wss://echo.websocket.org');
     // 定义加入房间消息
     var message = {

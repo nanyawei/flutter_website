@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
           title: 'Website',
           onGenerateRoute: Application.router.generator,
-          theme: ThemeData(primaryColor: Colors.redAccent),
+          theme: ThemeData(primaryColor: Colors.black),
           home: Loading()
       )
     );
